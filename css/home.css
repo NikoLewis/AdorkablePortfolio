@@ -1,10 +1,11 @@
 .peach{
-    width: 1328px;
+    width: 1300px;
     height: 426px;
     flex-shrink: 0; 
     border-radius: 100px 100px 0px 0px;
-    padding: 53px 53px 11px 80px;
+    padding: 53px 53px 11px 60px;
     background: #EFC2B3;
+    display: flex;
 }
 
 .hello{
@@ -18,4 +19,12 @@ width: 636px;
 height: 403px;
 flex-shrink: 0;
 /* padding: 10px 30px 30px 30px; */
+}
+
+.hands {
+    height: 444px;
+    width: 589px;
+}
+.quote {
+    padding-top: 20px;
 }

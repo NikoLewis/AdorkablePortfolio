@@ -26,7 +26,7 @@ flex-direction: row;
 flex-wrap: wrap;
 list-style: none;
 /* justify-content: flex-end; */
-margin: 10px 10px;
+/* margin: 10px 10px; */
 /* width: 800px; */
 }
 
@@ -39,13 +39,13 @@ li {
 }
 
 .header {
-    width: 353px;
+    width: 300px;
     height: 61px;
     background:#efc2b3;
     opacity: .7;
     color: black;
     margin-top: 20px;
-    margin-right: 400px;
+    margin-right: 0;
     margin-left: -60px;
     padding:20px 20px 20px 20px;
     font-size: xx-large;
