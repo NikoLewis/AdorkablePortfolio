@@ -1,0 +1,21 @@
+.peach{
+    width: 1328px;
+    height: 426px;
+    flex-shrink: 0; 
+    border-radius: 100px 100px 0px 0px;
+    padding: 53px 53px 11px 80px;
+    background: #EFC2B3;
+}
+
+.hello{
+    color: #000;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 636px;
+height: 403px;
+flex-shrink: 0;
+/* padding: 10px 30px 30px 30px; */
+}
