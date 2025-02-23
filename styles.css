@@ -1,5 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
+   
     }
 
 
@@ -22,5 +23,6 @@ margin: 10px 10px;
 li {
     align-items: flex-start;
     margin: 0 2rem 2rem 2rem;
+    text-decoration: none;
 
 }
