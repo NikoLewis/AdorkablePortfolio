@@ -12,15 +12,18 @@
 }
 .peach{
     /* position:fixed; */
+    display: flex;
     flex-shrink: 0;
     width:1328px;
     height: 426px;
-    top: 0;
+    top: 300px;
     left: 0;
     background-color: #efc2b3;
-    border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 100px 100px;
     align-items: center;
+    justify-content: space-between;
     margin-left: 93px;
+    /* flex-wrap: wrap; */
 }
 
 .togetherlabel{
@@ -45,4 +48,20 @@
     padding-left: 20px;
 }
     
+form {
+    /* align-items: flex-start; */
+    justify-self: flex-end;
+    flex-grow: 0;
+    width: 300px;
+    height: 503px;
+    border: #000000;
+    border-width: 1px;
+    margin-top: 80px;
+    padding-top: 60px;
+}
 
+img {
+    /* margin-top: 10px; */
+    /* align-self: flex-end; */
+    /* margin-bottom: -400x; */
+} */
