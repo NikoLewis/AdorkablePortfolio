@@ -42,26 +42,43 @@
   line-height: normal;
   
 }
-.togetherlabel .togethertext {
+.togethertext {
+
+    display: flex;
     margin-top: -30px;
     margin-left: 50px;
     padding-left: 20px;
 }
-    
+.formbox{
+    display: flex;
+    justify-content: space-between;
+}
 form {
-    /* align-items: flex-start; */
-    justify-self: flex-end;
-    flex-grow: 0;
+    display: flex;
+    align-items: flex-start;
+
+    flex-shrink: 0;
     width: 300px;
     height: 503px;
     border: #000000;
-    border-width: 1px;
-    margin-top: 80px;
-    padding-top: 60px;
+   
+    
 }
 
-img {
-    /* margin-top: 10px; */
-    /* align-self: flex-end; */
-    /* margin-bottom: -400x; */
-} */
+.collabbox {
+    display: flex;
+    flex-shrink: 0;
+    width: 877px;
+    height: 690px;
+    /* flex-direction: row; */
+    align-items: flex-end;
+    margin-top: 300px;
+}
+.collab {
+    display: flex;
+    flex-shrink: 0;
+    width: 877px;
+    height: 690px;
+    justify-content: flex-start;
+    margin-top: 300px;
+} 

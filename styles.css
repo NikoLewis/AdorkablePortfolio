@@ -1,5 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif; 
+    
     }
 
 
@@ -50,4 +51,16 @@ li {
     padding:20px 20px 20px 20px;
     font-size: xx-large;
     font-weight: 600;
+}
+
+.quote-box {
+    display: flex;
+    align-items: stretch;
+    
+}
+.quote{
+    /* display: flex                                                                                                                   ; */
+    justify-content: flex-end;
+    
+    /* background-color: aqua; */
 }
