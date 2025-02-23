@@ -1,0 +1,48 @@
+.peach-box{
+    flex-shrink: 0;
+    height: 426px;
+    width: 1328px;
+    display: flex;
+    
+}
+.contact-frame{
+    display: flex;
+    flex-direction: column;
+
+}
+.peach{
+    /* position:fixed; */
+    flex-shrink: 0;
+    width:1328px;
+    height: 426px;
+    top: 0;
+    left: 0;
+    background-color: #efc2b3;
+    border-radius: 100px 100px 0 0;
+    align-items: center;
+    margin-left: 93px;
+}
+
+.togetherlabel{
+    display: flex;
+    flex-shrink: 0;
+    width: 434px;
+    height: 68px;
+    justify-content: space-around;
+    top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+.togetherlabel .togethertext {
+    margin-top: -30px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+    
+
