@@ -51,20 +51,25 @@
 }
 .formbox{
     display: flex;
-    justify-content: space-between;
-}
-form {
-    display: flex;
+    /* flex-grow: 0; */
     align-items: flex-start;
-
-    flex-shrink: 0;
-    width: 300px;
-    height: 503px;
-    border: #000000;
-   
     
 }
+.myform {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 400px;
+    flex-direction: column;
+    border: #000000;  
+}
 
+#message {
+    flex-grow: 1;
+    height: 200px;
+    width: 300px;
+
+}
 .collabbox {
     display: flex;
     flex-shrink: 0;

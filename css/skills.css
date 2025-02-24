@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.contact p, .skills p {
+    margin-bottom: 5px;
+}
+
+.experience ul, .education ul, .public-speaking ul, .community ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li, .education li, .public-speaking li, .community li {
+    margin-bottom: 10px;
+}
+
+.experience h4 {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
