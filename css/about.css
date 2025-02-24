@@ -43,3 +43,19 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+/* styles for resume link */
+
+.resume-link {
+    display: flex;
+    flex-grow: 0;
+    align-items: flex-end;
+    justify-self: flex-start;
+    margin-left: -500px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,3 +1,5 @@
+/* This is the styling for my resume page */
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -51,4 +53,10 @@ h1, h2, h3 {
     .container {
         padding: 10px;
     }
+}
+
+/* styling starts here for skills section on about page */
+
+.skills-section {
+    
 }
