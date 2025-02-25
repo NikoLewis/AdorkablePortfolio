@@ -64,15 +64,25 @@ line-height: normal;
 /* styles for skills  section */
 
 .languages-section{
-    list-style: none;
+   
 
+
+}
+li{
+    align-items: flex-start;
+    margin: 0 2rem 2rem 2rem;
+    justify-content: space-between;
 }
 
 .languages-header{
 
 }
 .languages-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
+    
 
 }
 
@@ -83,5 +93,8 @@ line-height: normal;
 
 }
 .pro-skills-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
 }
