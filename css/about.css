@@ -64,15 +64,16 @@ line-height: normal;
 /* styles for skills  section */
 
 .languages-section{
-   fle
+   
 
 
 }
 li{
    
     align-items: flex-start;
-    margin: 0 2rem 2rem 2rem;
-    justify-content: space-between;
+    /* margin: 0 2rem 2rem 2rem; */
+    /* margin: 1 1 1 1px; */
+    /* justify-content: space-between; */
 }
 
 .languages-header{
@@ -81,8 +82,11 @@ li{
 .languages-list{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
     list-style: none;
+    justify-content: space-around;
+    margin: 1 1 1 1px;
     
 
 }
