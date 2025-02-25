@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
 .peach-box{
     flex-shrink: 0;
     height: 426px;
@@ -83,4 +88,17 @@
     height: 690px;
     justify-content: flex-start;
     margin-top: 300px;
+    box-shadow: 0 5px 10px rgba(34, 33, 33, 0.1);
 } 
+#contact-page-footer{
+    display: flex;
+    
+    flex-grow: 0;
+    margin-top: 300px;
+    /* margin-left: 300px; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+    
+}

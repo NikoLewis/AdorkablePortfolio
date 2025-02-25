@@ -16,6 +16,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column; /* Stack sections vertically */
+    box-shadow: 15px 30px 15px rgba(26, 25, 25, 0.1); /* gives the illusion of depth to resume feature */
 }
 
 header {
