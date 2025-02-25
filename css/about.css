@@ -45,17 +45,35 @@ line-height: normal;
 }
 
 /* styles for resume link */
-
+/* Debating leaving the link styled as is or going fancier with it. Custom button? more flamboyant font? */
 .resume-link {
     display: flex;
     flex-grow: 0;
-    align-items: flex-end;
+    align-items: center;
     justify-self: flex-start;
-    margin-left: -500px;
+    margin-left: -470px;
+    margin-bottom: -250px;
     color: #000;
     font-family: Poppins;
     font-size: 22px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
+}
+
+/* styles for skills  section */
+
+.languages-header{
+
+}
+.languages-list{
+    list-style: none;
+
+}
+
+.pro-skills-header{
+
+}
+.pro-skills-list{
+    list-style: none;
 }
