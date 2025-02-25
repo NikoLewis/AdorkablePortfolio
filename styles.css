@@ -55,12 +55,22 @@ li {
 
 .quote-box {
     display: flex;
-    align-items: stretch;
+    /* align-items: stretch; */
     
 }
 .quote{
-    /* display: flex                                                                                                                   ; */
-    justify-content: flex-end;
+    display: flex                                                                                                                   ;
+    justify-content: center;
+    padding-left: 60px;
     
-    /* background-color: aqua; */
+    
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin-left: -100px;
 }
