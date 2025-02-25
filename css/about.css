@@ -69,11 +69,13 @@ line-height: normal;
 
 }
 li{
-   
-    align-items: flex-start;
+   display: flex;
+    align-items: center;
+    flex-direction: column;
     /* margin: 0 2rem 2rem 2rem; */
     /* margin: 1 1 1 1px; */
     /* justify-content: space-between; */
+    /* align-items: flex-start; */
 }
 
 .languages-header{
@@ -82,11 +84,10 @@ li{
 .languages-list{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-around;
-    margin: 1 1 1 1px;
+ 
     
 
 }
@@ -98,12 +99,44 @@ li{
 
 }
 .pro-skills-list{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
     list-style: none;
+    justify-content: space-around;
+    margin: 1 1 1 1px;
+    
 }
 
-span {
-    margin-left: -110px;
+
+
+
+/* icon styling */
+
+.ui-icon{
+    display: flex;
+    flex-grow: 0;
+    width: 80px;
+    height: 80px;
+    margin-top: -11px;
 }
+.nodejs-icon{
+    display: flex;
+    flex-grow: 0;
+    width: 62px;
+    height: 62px;
+    /* margin-top: -10px; */
+} 
+.react-icon{
+    display: flex;
+    flex-grow: 0;
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+  
+} 
