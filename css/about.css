@@ -64,11 +64,12 @@ line-height: normal;
 /* styles for skills  section */
 
 .languages-section{
-   
+   fle
 
 
 }
 li{
+   
     align-items: flex-start;
     margin: 0 2rem 2rem 2rem;
     justify-content: space-between;
@@ -97,4 +98,8 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
+}
+
+span {
+    margin-left: -110px;
 }
