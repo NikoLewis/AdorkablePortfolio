@@ -64,6 +64,7 @@ line-height: normal;
 /* styles for skills  section */
 
 .languages-section{
+    list-style: none;
 
 }
 
@@ -76,7 +77,7 @@ line-height: normal;
 }
 
 .pro-skills-section{
-    
+
 }
 .pro-skills-header{
 
