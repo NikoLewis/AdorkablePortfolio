@@ -2,25 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
 }
-
 .peach-box{
     display: flex;
     flex-shrink: 0;
     height: 426px;
     width: 1328px;
-   /* justify-content: space-around; */
     flex-direction: column;
     justify-content: flex-end;
-   margin: 50px;
-    
+    margin: 50px;
 }
 .projects-frame{
     display: flex;
     flex-direction: column;
     align-content: space-between;
-
 }
 .peach{
     display: flex;
@@ -31,7 +26,6 @@ body {
     margin-top: 15px;
     padding-bottom: 10px;
     top: 300px;
-    /* left: 0; */
     background-color: #efc2b3;
     border-radius: 100px 100px 100px 100px;
     align-items: center;
@@ -39,53 +33,33 @@ body {
     margin-left: 93px; 
      margin-bottom: 30px;
 }
-
 .projects-section{
     display: flex;
     flex-grow: 0;
     justify-content: space-around;
     align-items: flex-end;
-  
-    /* background-color: rgb(219, 138, 172); */
-    /* height: 400px; */
-    /* width: 500px;  */
-    /* align-items: center;  */
-    /* margin-top: -90px; */
-    /* margin-left: -70px; */
-    /* justify-content: center; */
  } 
-
 .project-img{
     display: flex;
     flex-grow: 0;
     padding-left: 100px;
     height: 370px;
     width: 600px;
-    
     padding-top: 15px;
-    /* margin-left: 300px; */
-    /* justify-content: center; */
 }
-
 p {
     display: flex;
     flex-grow: 0;
     padding: 50px;
-    /* height: 300px; */
-    /* width: 3000px; */
     flex-wrap: wrap;
     font-size: 22px;
-
 }
-
 h3 {
     display: flex;
     justify-content: center;
     margin-left: 500px;
     margin-bottom: -10px;
-  
 }
-
 h1{
     display: flex;
     justify-content: center;

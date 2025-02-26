@@ -16,34 +16,30 @@
 }
 .funfact {
     color: #000;
-
-font-family: Poppins;
-font-size: 16px;
-font-style: italic;
-font-weight: 300;
-line-height: normal;
-width: 659px;
-height: 159px;
-flex-shrink: 0;
-margin-top: -270px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    width: 659px;
+    height: 159px;
+    flex-shrink: 0;
+    margin-top: -270px;
 }
-
 .summary {
-    
     justify-content: space-between;
     width: 600px;
-height: 400px;
-flex-shrink: 0;
+    height: 400px;
+    flex-shrink: 0;
     color: #000;
     margin-top: -170px;
     margin-left: -800px;
-font-family: Poppins;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-
 /* styles for resume link */
 /* Debating leaving the link styled as is or going fancier with it. Custom button? more flamboyant font? */
 .resume-link {
@@ -60,26 +56,11 @@ line-height: normal;
     font-weight: 600;
     line-height: normal;
 }
-
 /* styles for skills  section */
-
-.languages-section{
-   
-
-
-}
 li{
    display: flex;
     align-items: center;
     flex-direction: column;
-    /* margin: 0 2rem 2rem 2rem; */
-    /* margin: 1 1 1 1px; */
-    /* justify-content: space-between; */
-    /* align-items: flex-start; */
-}
-
-.languages-header{
-
 }
 .languages-list{
     display: flex;
@@ -87,37 +68,16 @@ li{
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-around;
- 
-    
-
-}
-
-.pro-skills-section{
-
-}
-.pro-skills-header{
-
 }
 .pro-skills-list{
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* flex-wrap: nowrap; */
     list-style: none;
     justify-content: space-around;
     margin: 1 1 1 1px;
-    
 }
-
-
-
-
 /* icon styling */
-
 .ui-icon{
     display: flex;
     flex-grow: 0;

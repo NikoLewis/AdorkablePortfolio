@@ -1,22 +1,18 @@
 body{
     display: flex;
     flex-direction: column;
-    
 }
 .peach-box{
     flex-shrink: 0;
     height: 426px;
     width: 1328px;
-    display: flex;
-    
+    display: flex;   
 }
 .contact-frame{
     display: flex;
     flex-direction: column;
-
 }
 .peach{
-    /* position:fixed; */
     display: flex;
     flex-shrink: 0;
     width:1328px;
@@ -28,9 +24,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-left: 93px;
-    /* flex-wrap: wrap; */
 }
-
 .togetherlabel{
     display: flex;
     flex-shrink: 0;
@@ -38,13 +32,13 @@ body{
     height: 68px;
     justify-content: space-around;
     top: 0;
-  left: 0;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 38px;
-  letter-spacing: 0;
-  line-height: normal;
+    left: 0;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: normal;
 }
 .togethertext {
     display: flex;
@@ -70,14 +64,12 @@ body{
     flex-grow: 1;
     height: 200px;
     width: 300px;
-
 }
 .collabbox {
     display: flex;
     flex-shrink: 0;
     width: 877px;
     height: 690px;
-    /* flex-direction: row; */
     align-items: flex-end;
     margin-top: 300px;
 }
@@ -92,13 +84,8 @@ body{
 } 
 #contact-page-footer{
     display: flex;
-    
     flex-grow: 0;
     margin-top: 300px;
-    /* margin-left: 300px; */
     flex-wrap: wrap;
     justify-content: center;
-
-    
-    
 }
