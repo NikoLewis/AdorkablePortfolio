@@ -105,7 +105,7 @@ li{
 height:128px;
 width:128px;
 }
-#tester-icon{
+#test-icon{
     height:128px ;
     width:128px;
 }
@@ -134,4 +134,9 @@ width:128px;
 #ux-icon{
     height:135px ;
     width:135px;
+}
+
+.updated-icons{
+    height:128px ;
+    width:128px;
 }
