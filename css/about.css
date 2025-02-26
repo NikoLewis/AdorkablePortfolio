@@ -100,3 +100,38 @@ li{
     margin-top: -10px;
   
 } 
+
+#js-icon{
+height:128px;
+width:128px;
+}
+#tester-icon{
+    height:128px ;
+    width:128px;
+}
+
+#node-icon{
+    height:128px ;
+    width:128px;
+}
+#react-icon{
+    height:135px ;
+    width:135px;
+}
+
+#css-icon{
+    height:128px ;
+    width:128px ;
+}
+#html-icon{
+    height:128px ;
+    width:128px ;
+}
+#sql-icon{
+    height:128px ;
+    width:128px;
+}
+#ux-icon{
+    height:135px ;
+    width:135px;
+}
