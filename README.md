@@ -17,5 +17,5 @@ I learned to add depth and hints of texture using shadow-box through coding my r
 
 This portfolio was exclusively coded with HTML AND vanilla css (with flexbox) to develop a a good handle on the basics before moving into Javascript, React, and Tailwind CSS. My icons were sourced from Icons8.com and thee illustrations from Storyset.com
 
-To practice my Markdown, I'll share the assignment criteria below:
+To practice my Markdown, I'll share the assignment criteria below: 
 
