@@ -1,0 +1,364 @@
+.testimonials {
+    background-color: #ffffff;
+    display: flex;
+    flex-grow: 0;
+    /* flex-direction: row; */
+    justify-content: center;
+    width: 100%;
+    }
+
+    /* this is the All father div below */
+    .testimonials .div {
+    background-color: #ffffff;
+    /* width: 1512px;?\ */
+    /* height: 982px; */
+    /* position: relative; */
+    /* flex experiments */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .testimonials .peach-block {
+    position: absolute;
+    width: 1328px;
+    height: 112px;
+    top: 180px;
+    left: 92px;
+    background-color: #efc2b3;
+    border-radius: 100px 100px 0px 0px;
+    }
+    .testimonials .title {
+    /* position: absolute; */
+    width: 311px;
+    top: 26px;
+    left: 472px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+
+    /* is this doing anything? */
+
+    /* .testimonials .text-wrapper-3 {
+    top: 32px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #072045;
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    } */
+
+    /* unsure what this does now going to comment it out while i experiment */
+
+    /* .testimonials .frame {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 67px;
+    overflow: hidden;
+    } */
+     
+    /* .testimonials .text-wrapper-4 {
+    position: absolute;
+    width: 91px;
+    top: 31px;
+    left: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #072045;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    } */
+
+    /* .testimonials .text-wrapper-5 {
+    top: 32px;
+    left: 193px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #072045;
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    } */
+
+
+    /* .testimonials .text-wrapper-6 {
+    top: 32px;
+    left: 464px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #072045;
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    } */
+
+    /* .testimonials .text-wrapper-7 {
+    top: 33px;
+    left: 361px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #072045;
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    } */
+    .testimonials .testimonial-number-1-container {
+    position: absolute;
+    width: 708px;
+    height: 641px;
+    top: 333px;
+    left: 54px;
+    }
+    .testimonials .testimonial-number-1 {
+    position: absolute;
+    width: 708px;
+    height: 641px;
+    top: 0;
+    left: 0;
+    }
+    .testimonials .testimonial-number-1-text {
+    position: absolute;
+    width: 645px;
+    height: 421px;
+    top: 206px;
+    left: 38px;
+    border: 2px solid;
+    border-color: #000000;
+    }
+    .testimonials .image {
+    position: absolute;
+    width: 274px;
+    height: 259px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    }
+    .testimonials .niko-is-brilliant {
+    position: absolute;
+    width: 657px;
+    top: 330px;
+    left: 51px;
+    font-family: "Poppins-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .testimonials .testimonial-number-1-role {
+    position: absolute;
+    top: 61px;
+    left: 295px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .testimonials .testimonial-number-2-container {
+    position: absolute;
+    width: 669px;
+    height: 634px;
+    top: 333px;
+    left: 783px;
+    }
+    .testimonials .testimonial-number-2 {
+    position: absolute;
+    width: 669px;
+    height: 634px;
+    top: 0;
+    left: 0;
+    }
+    .testimonials .testimonial-number-2-text {
+    position: absolute;
+    width: 643px;
+    height: 428px;
+    top: 204px;
+    left: 25px;
+    border: 2px solid;
+    border-color: #000000;
+    transform: rotate(0.42deg);
+    }
+    .testimonials .img {
+    position: absolute;
+    width: 262px;
+    height: 248px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    }
+    .testimonials .p {
+    position: absolute;
+    width: 600px;
+    top: 326px;
+    left: 46px;
+    font-family: "Poppins-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .testimonials .testimonial-number-2-role {
+    position: absolute;
+    top: 53px;
+    left: 346px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+
+    /* expanding the testimonials page as jose suggested begins here */
+    /* .testimonial-number-3 styling */
+    .testimonials .testimonial-number-3-container {
+        /* position: absolute; */
+        /* display: flex; */
+        /* flex-grow: 0; */
+        /* width: 708px;
+        height: 641px;
+        top: 333px;
+        left: 54px; */
+
+        display: flex;
+            width: 708px;
+            height: 641px;
+            top: 333px;
+            left: 54px;
+        }
+        .testimonials .testimonial-number-3 {
+        /* position: absolute; */
+        display: flex;
+        /* flex-grow: 0; */
+        width: 708px;
+        height: 641px;
+        top: 0;
+        left: 0;
+        }
+        .testimonials .testimonial-number-3-text {
+        /* position: absolute; */
+        display: flex;
+
+        width: 645px;
+        height: 421px;
+        top: 206px;
+        left: 38px;
+        border: 2px solid;
+        border-color: #000000;
+
+    
+        }
+
+        /* do I need this class below repeated? */
+        .testimonials .image {
+        /* position: absolute; */
+        width: 274px;
+        height: 259px;
+        /* top: 0;
+        left: 0;
+        object-fit: cover; */
+        }
+
+        .testimonials .niko-is-resourceful {
+        /* position: absolute; */
+        width: 657px;
+        top: 330px;
+        left: 51px;
+        font-family: "Poppins-LightItalic", Helvetica;
+        font-weight: 300;
+        font-style: italic;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+        }
+        .testimonials .testimonial-number-3-role {
+        /* position: absolute; */
+        top: 61px;
+        left: 295px;
+        font-family: "Poppins-Medium", Helvetica;
+        font-weight: 500;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+        }
+
+        /* .testimonial-number-4 styling */
+        .testimonials .testimonial-number-4-container {
+            /* position: absolute; */
+            display: flex;
+            width: 708px;
+            height: 641px;
+            top: 333px;
+            left: 54px;
+            }
+            .testimonials .testimonial-number-4 {
+            /* position: absolute; */
+            width: 708px;
+            height: 641px;
+            top: 0;
+            left: 0;
+            }
+            .testimonials .testimonial-number-4-text {
+            /* position: absolute; */
+            width: 645px;
+            height: 421px;
+            top: 206px;
+            left: 38px;
+            border: 2px solid;
+            border-color: #000000;
+            }
+    
+            /* do I need this class below repeated? */
+            .testimonials .image {
+            /* position: absolute; */
+            width: 274px;
+            height: 259px;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            }
+    
+            .testimonials .niko-is-curious {
+            /* position: absolute; */
+            width: 657px;
+            top: 330px;
+            left: 51px;
+            font-family: "Poppins-LightItalic", Helvetica;
+            font-weight: 300;
+            font-style: italic;
+            color: #000000;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: normal;
+            }
+            .testimonials .testimonial-number-4-role {
+            /* position: absolute; */
+            top: 61px;
+            left: 295px;
+            font-family: "Poppins-Medium", Helvetica;
+            font-weight: 500;
+            color: #000000;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: normal;
+            }
+        /* .testimonial-number-5 styling */

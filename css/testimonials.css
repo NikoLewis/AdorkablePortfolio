@@ -1,3 +1,7 @@
+/* This was a feature not requested in the assignment I wanted to play with, please disregard the disuse of flexbox here. */
+
+
+
 .testimonials {
     background-color: #ffffff;
     display: flex;
@@ -5,13 +9,14 @@
     justify-content: center;
     width: 100%;
     }
+    /* this is the All father div below */
     .testimonials .div {
     background-color: #ffffff;
     width: 1512px;
     height: 982px;
     position: relative;
     }
-    .testimonials .overlap {
+    .testimonials .peach-block {
     position: absolute;
     width: 1328px;
     height: 112px;
@@ -20,7 +25,7 @@
     background-color: #efc2b3;
     border-radius: 100px 100px 0px 0px;
     }
-    .testimonials .text-wrapper-2 {
+    .testimonials .title {
     position: absolute;
     width: 311px;
     top: 26px;
@@ -32,85 +37,21 @@
     letter-spacing: 0;
     line-height: normal;
     }
-    .testimonials .text-wrapper-3 {
-    top: 32px;
-    left: 0;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #072045;
-    position: absolute;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    }
-    .testimonials .frame {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 0;
-    left: 67px;
-    overflow: hidden;
-    }
-    .testimonials .text-wrapper-4 {
-    position: absolute;
-    width: 91px;
-    top: 31px;
-    left: 15px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #072045;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    }
-    .testimonials .text-wrapper-5 {
-    top: 32px;
-    left: 193px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #072045;
-    position: absolute;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    }
-    .testimonials .text-wrapper-6 {
-    top: 32px;
-    left: 464px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #072045;
-    position: absolute;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    }
-    .testimonials .text-wrapper-7 {
-    top: 33px;
-    left: 361px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #072045;
-    position: absolute;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    }
-    .testimonials .overlap-2 {
+    .testimonials .testimonial-number-1-container {
     position: absolute;
     width: 708px;
     height: 641px;
     top: 333px;
     left: 54px;
     }
-    .testimonials .overlap-3 {
+    .testimonials .testimonial-number-1 {
     position: absolute;
     width: 708px;
     height: 641px;
     top: 0;
     left: 0;
     }
-    .testimonials .rectangle-2 {
+    .testimonials .testimonial-number-1-text {
     position: absolute;
     width: 645px;
     height: 421px;
@@ -140,7 +81,7 @@
     letter-spacing: 0;
     line-height: normal;
     }
-    .testimonials .xiangbing-ji {
+    .testimonials .testimonial-number-1-role {
     position: absolute;
     top: 61px;
     left: 295px;
@@ -151,21 +92,21 @@
     letter-spacing: 0;
     line-height: normal;
     }
-    .testimonials .overlap-4 {
+    .testimonials .testimonial-number-2-container {
     position: absolute;
     width: 669px;
     height: 634px;
     top: 333px;
     left: 783px;
     }
-    .testimonials .overlap-5 {
+    .testimonials .testimonial-number-2 {
     position: absolute;
     width: 669px;
     height: 634px;
     top: 0;
     left: 0;
     }
-    .testimonials .rectangle-3 {
+    .testimonials .testimonial-number-2-text {
     position: absolute;
     width: 643px;
     height: 428px;
@@ -196,7 +137,7 @@
     letter-spacing: 0;
     line-height: normal;
     }
-    .testimonials .michael-dinnall {
+    .testimonials .testimonial-number-2-role {
     position: absolute;
     top: 53px;
     left: 346px;
@@ -207,3 +148,5 @@
     letter-spacing: 0;
     line-height: normal;
     }
+
+    
